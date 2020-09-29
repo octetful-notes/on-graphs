@@ -54,6 +54,18 @@
                 <ul class="current">
                     <li class="toctree-l1 current"><a class="reference internal current" href="./">Visualisation</a>
     <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#graphviz">Graphviz</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#the-dot-language">The DOT Language</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#graphviz-react">GraphViz React</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#intellij-idea-plugin">IntelliJ IDEA Plugin</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#further-explorations">Further Explorations</a>
+    </li>
     </ul>
                     </li>
                 </ul>
@@ -99,6 +111,25 @@
               
                 <h1 id="octetful-notes-graphs-visualisation">Octetful Notes - Graphs - Visualisation</h1>
 <p>This section contains details on different visualisation tools and techniques used for graphs.</p>
+<h2 id="graphviz">Graphviz</h2>
+<p><a href="https://graphviz.gitlab.io/">Graphviz</a> is open source graph visualization software. Graph visualization is a way of representing structural information as diagrams of abstract graphs and networks.</p>
+<h3 id="the-dot-language">The DOT Language</h3>
+<blockquote>
+<p>DOT is a graph description language. DOT graphs are typically files with the filename extension gv or dot. The extension gv is preferred, to avoid confusion with the extension dot used by versions of Microsoft Word before 2007.
+Various programs can process DOT files. Some, such as dot, neato, twopi, circo, fdp, and sfdp, can read a DOT file and render it in graphical form. Others, such as gvpr, gc, acyclic, ccomps, sccmap, and tred, read DOT files and perform calculations on the represented graph. Finally, others, such as lefty, dotty, and grappa, provide an interactive interface. The GVedit tool combines a text editor with noninteractive image viewer. Most programs are part of the Graphviz package or use it internally.
+          -- <a href="https://en.wikipedia.org/wiki/DOT_(graph_description_language)">Wikipedia</a></p>
+</blockquote>
+<p>You can find the the abstract grammar defining the graph language <a href="https://graphviz.org/doc/info/lang.html"><strong>here</strong></a>.</p>
+<p>There is also an active <strong>Reddit</strong> thread of discussions for <a href="https://www.reddit.com/r/java/comments/6ogiwx/library_for_graph_visualization/">more graph visualisation libraries</a>.</p>
+<h3 id="graphviz-react">GraphViz React</h3>
+<p><a href="https://www.npmjs.com/package/graphviz-react"><strong><code>graphviz-react</code></strong></a> provides a simple to use component for rendering Graphviz objects in React.</p>
+<p>You can find the source code for <code>graphviz-react</code> on <a href="https://github.com/DomParfitt/graphviz-react"><strong>Github</strong></a>.</p>
+<h3 id="intellij-idea-plugin">IntelliJ IDEA Plugin</h3>
+<p>There is a plugin that can provide basic editing support for dot language files (<code>*.dot</code> and <code>*.gv</code>) in IntelliJ IDEA called the <a href="https://plugins.jetbrains.com/plugin/10312-dotplugin"><strong>dotPlugin</strong></a>.</p>
+<h2 id="further-explorations">Further Explorations</h2>
+<ul>
+<li>Tinkerpop IO adapter for Dot language?</li>
+</ul>
               
             </div>
           </div>
