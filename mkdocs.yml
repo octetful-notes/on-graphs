@@ -1,4 +1,7 @@
 site_name: Octetful Notes - Graphs
 nav:
   - Home: index.md
+  - Visualisation: visualisation/index.md
+  - Graph Databases: graphdb/index.md
+  - Algorithms, Data Structures and Mathematics: graphtheory/index.md
 theme: readthedocs
