@@ -6,6 +6,7 @@ This section covers the Apache Tinkerpop framework.
 - [Recipes](https://tinkerpop.apache.org/docs/current/recipes/)
 - [Reference](https://tinkerpop.apache.org/docs/current/reference/)
 - [Javadoc (full)](https://tinkerpop.apache.org/javadocs/3.4.8/full/)
+- [Gremlin Practical Guide Book](http://kelvinlawrence.net/book/Gremlin-Graph-Guide.html)
 
 ## Tinkerpop Tools
 - [Gremlify](https://gremlify.com/) - An online gremlin console that **"mostly"** works. Doesn't support many common operations like subgraphs, or even proper `addE()` operations.
