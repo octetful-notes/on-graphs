@@ -2,7 +2,8 @@
 
 This section covers details on the neo4j graph database.
 
-[Neo4j cypher manual v4.1](https://neo4j.com/docs/cypher-manual/current/) authored by the Neo4j team.
+* [Neo4j cypher manual v4.1](https://neo4j.com/docs/cypher-manual/current/) authored by the Neo4j team.
+* [Using Neo4j Browser with Embedded Neo4j](https://graphaware.com/neo4j/2014/11/21/neo4j-browser-with-embedded.html)
 
 ## Subgraphs
 - [Expand to subgraph procedure](https://neo4j.com/labs/apoc/4.1/graph-querying/expand-subgraph/)
