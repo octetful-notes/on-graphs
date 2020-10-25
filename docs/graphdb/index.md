@@ -25,6 +25,10 @@ There's an [Overview for Application Developers](https://jgrapht.org/guide/UserO
 ### BlazeGraph
 >[**Blazegraph™ DB**](https://github.com/blazegraph/database) is a ultra high-performance graph database supporting Blueprints and RDF/SPARQL APIs. It supports up to 50 Billion edges on a single machine. It is in production use for Fortune 500 customers such as EMC, Autodesk, and many others. It is supporting key Precision Medicine applications and has wide-spread usage for life science applications. It is used extensively to support Cyber anaytics in commercial and government applications. It powers the Wikimedia Foundation's Wikidata Query Service.
 
+* [Quick Start Guide](https://github.com/blazegraph/database/wiki/Quick_Start) - A BlazeGraph quick start guide.
+* [Dockerized BlazeGraph](https://hub.docker.com/r/nawer/blazegraph) - well documented dockerized version of BlazeGraph on dokerhub.
+* [BlazeGraph Tinkerpop](https://github.com/blazegraph/tinkerpop3) - Tinkerpop adapter for BlazeGraph.
+
 ### JanusGraph
 >[**JanusGraph**](https://janusgraph.org/)  is a scalable graph database optimized for storing and querying graphs containing hundreds of billions of vertices and edges distributed across a multi-machine cluster. JanusGraph is a project under The Linux Foundation, and includes participants from Expero, Google, GRAKN.AI, Hortonworks, IBM and Amazon.
 
