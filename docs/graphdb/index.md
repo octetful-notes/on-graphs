@@ -25,6 +25,9 @@ There's an [Overview for Application Developers](https://jgrapht.org/guide/UserO
 ### BlazeGraph
 >[**Blazegraph™ DB**](https://github.com/blazegraph/database) is a ultra high-performance graph database supporting Blueprints and RDF/SPARQL APIs. It supports up to 50 Billion edges on a single machine. It is in production use for Fortune 500 customers such as EMC, Autodesk, and many others. It is supporting key Precision Medicine applications and has wide-spread usage for life science applications. It is used extensively to support Cyber anaytics in commercial and government applications. It powers the Wikimedia Foundation's Wikidata Query Service.
 
+### JanusGraph
+>[**JanusGraph**](https://janusgraph.org/)  is a scalable graph database optimized for storing and querying graphs containing hundreds of billions of vertices and edges distributed across a multi-machine cluster. JanusGraph is a project under The Linux Foundation, and includes participants from Expero, Google, GRAKN.AI, Hortonworks, IBM and Amazon.
+
 ### NeptuneDB
 >[**Amazon Neptune**](https://aws.amazon.com/neptune/) is a fast, reliable, fully managed graph database service that makes it easy to build and run applications that work with highly connected datasets.
 
