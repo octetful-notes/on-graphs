@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  
+  <link rel="shortcut icon" href="../../img/favicon.ico">
+  <title>Apache Tinkerpop - Octetful Notes - Graphs</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700" />
+
+  <link rel="stylesheet" href="../../css/theme.css" />
+  <link rel="stylesheet" href="../../css/theme_extra.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css" />
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "Apache Tinkerpop";
+    var mkdocs_page_input_path = "graphdb\\tinkerpop.md";
+    var mkdocs_page_url = null;
+  </script>
+  
+  <script src="../../js/jquery-2.1.1.min.js" defer></script>
+  <script src="../../js/modernizr-2.8.3.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script> 
+  
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+        <a href="../.." class="icon icon-home"> Octetful Notes - Graphs</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../..">Home</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../visualisation/">Visualisation</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">Graph Databases</span></p>
+                <ul class="current">
+                    <li class="toctree-l1"><a class="reference internal" href="../">Octetful Notes - Graphs - Graph Databases</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../neo4j/">Neo4J</a>
+                    </li>
+                    <li class="toctree-l1 current"><a class="reference internal current" href="./">Apache Tinkerpop</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#tinkerpop-tools">Tinkerpop Tools</a>
+    </li>
+    </ul>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../graphtheory/">Algorithms, Data Structures and Mathematics</a>
+                    </li>
+                </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="../..">Octetful Notes - Graphs</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../..">Docs</a> &raquo;</li>
+    
+      
+        
+          <li>Graph Databases &raquo;</li>
+        
+      
+    
+    <li>Apache Tinkerpop</li>
+    <li class="wy-breadcrumbs-aside">
+      
+    </li>
+  </ul>
+  
+  <hr/>
+</div>
+          <div role="main">
+            <div class="section">
+              
+                <h1 id="octetful-notes-graphs-apache-tinkerpop">Octetful Notes - Graphs - Apache Tinkerpop</h1>
+<p>This section covers the Apache Tinkerpop framework.</p>
+<ul>
+<li><a href="https://tinkerpop.apache.org/docs/current/tutorials/getting-started/">Getting Started Guide</a></li>
+<li><a href="https://tinkerpop.apache.org/docs/current/recipes/">Recipes</a></li>
+<li><a href="https://tinkerpop.apache.org/docs/current/reference/">Reference</a></li>
+<li><a href="https://tinkerpop.apache.org/javadocs/3.4.8/full/">Javadoc (full)</a></li>
+<li><a href="http://kelvinlawrence.net/book/Gremlin-Graph-Guide.html">Gremlin Practical Guide Book</a></li>
+</ul>
+<h2 id="tinkerpop-tools">Tinkerpop Tools</h2>
+<ul>
+<li><a href="https://gremlify.com/">Gremlify</a> - An online gremlin console that <strong>"mostly"</strong> works. Doesn't support many common operations like subgraphs, or even proper <code>addE()</code> operations.</li>
+<li><a href="https://github.com/EsotericSoftware/kryo">Kryo</a> - a fast and efficient binary object graph serialization framework for Java.</li>
+<li><a href="https://github.com/bricaud/graphexp">Graphexp</a> - Graphexp is a lightweight web interface to explore and display a graph stored in a Gremlin graph database, via the Gremlin server (version 3.2.x, 3.3.x or 3.4.x).</li>
+<li><a href="https://hub.docker.com/r/tinkerpop/gremlin-console">Dockerized Gremlin Console</a> - A docker container image for gremlin console. See notes below for more information on usage.</li>
+<li><a href="https://hub.docker.com/r/tinkerpop/gremlin-server">Dockerized Gremlin Server</a> - A docker container image for gremlin server.</li>
+</ul>
+<hr />
+<p><strong> Starting Containerized Gremlin Console </strong></p>
+<p>To start a containerized gremlin console use the following commands:</p>
+<pre><code class="bash">docker pull tinkerpop/gremlin-console
+docker run -it tinkerpop/gremlin-console
+</code></pre>
+
+<hr />
+              
+            </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../../graphtheory/" class="btn btn-neutral float-right" title="Algorithms, Data Structures and Mathematics">Next <span class="icon icon-circle-arrow-right"></span></a>
+      
+      
+        <a href="../neo4j/" class="btn btn-neutral" title="Neo4J"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+      
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="versions">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      
+      
+        <span><a href="../neo4j/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+      
+      
+        <span style="margin-left: 15px"><a href="../../graphtheory/" style="color: #fcfcfc">Next &raquo;</a></span>
+      
+    </span>
+</div>
+    <script>var base_url = '../..';</script>
+    <script src="../../js/theme.js" defer></script>
+      <script src="../../search/main.js" defer></script>
+    <script defer>
+        window.onload = function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        };
+    </script>
+
+</body>
+</html>
