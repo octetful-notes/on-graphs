@@ -23,7 +23,18 @@ You can find the source code for `graphviz-react` on [**Github**](https://github
 ### IntelliJ IDEA Plugin
 There is a plugin that can provide basic editing support for dot language files (`*.dot` and `*.gv`) in IntelliJ IDEA called the [**dotPlugin**](https://plugins.jetbrains.com/plugin/10312-dotplugin).
 
-## Further Explorations
- - Tinkerpop IO adapter for Dot language?
+
+
+## Visualising Tinkerpop/Gremlin Graphs
+There are potentially multiple visualisation options for Tinkerpop or Gremlin graphs, some of which we tried as noted below:
+
+### [Using Neo4J embedded mode browser](https://graphaware.com/neo4j/2014/11/21/neo4j-browser-with-embedded.html)
+This is also linked under Neo4J notes section, and is deprecated and only applicable when using Neo4J embedded provider in Tinkerpop. Still untested, but the UI for neo4j works like a charm.
+
+### [Using graphexp](https://github.com/bricaud/graphexp)
+This method would require a Tinkerpop server to connect to. You would need to change the configurations in the `scripts/graphConf.js` file.
+
+### Using a custom visualization component
+You could for example write a translator to translate a Gremlin Graph to Graphviz dot file usign the [Graphviz Java library](https://github.com/nidi3/graphviz-java).
 
 
