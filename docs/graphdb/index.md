@@ -32,6 +32,9 @@ There's an [Overview for Application Developers](https://jgrapht.org/guide/UserO
 ### JanusGraph
 >[**JanusGraph**](https://janusgraph.org/)  is a scalable graph database optimized for storing and querying graphs containing hundreds of billions of vertices and edges distributed across a multi-machine cluster. JanusGraph is a project under The Linux Foundation, and includes participants from Expero, Google, GRAKN.AI, Hortonworks, IBM and Amazon.
 
+* [Connecting from Java](https://docs.janusgraph.org/connecting/java/) - A reference on connecting to Janus Graph from Java projects.
+* [Installation Guide](https://docs.janusgraph.org/getting-started/installation/) - A guide on installing Janus Graph (with containers as well).
+
 ### NeptuneDB
 >[**Amazon Neptune**](https://aws.amazon.com/neptune/) is a fast, reliable, fully managed graph database service that makes it easy to build and run applications that work with highly connected datasets.
 
