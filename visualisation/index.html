@@ -5,27 +5,26 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
-  
+  <meta name="description" content="None">
   
   <link rel="shortcut icon" href="../img/favicon.ico">
   <title>Visualisation - Octetful Notes - Graphs</title>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700" />
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
 
-  <link rel="stylesheet" href="../css/theme.css" />
-  <link rel="stylesheet" href="../css/theme_extra.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css" />
+  <link rel="stylesheet" href="../css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../css/theme_extra.css" type="text/css" />
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
   
   <script>
     // Current page data
     var mkdocs_page_name = "Visualisation";
-    var mkdocs_page_input_path = "visualisation\\index.md";
+    var mkdocs_page_input_path = "visualisation/index.md";
     var mkdocs_page_url = null;
   </script>
   
   <script src="../js/jquery-2.1.1.min.js" defer></script>
   <script src="../js/modernizr-2.8.3.min.js" defer></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
   <script>hljs.initHighlightingOnLoad();</script> 
   
 </head>
@@ -36,7 +35,6 @@
 
     
     <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
-    <div class="wy-side-scroll">
       <div class="wy-side-nav-search">
         <a href=".." class="icon icon-home"> Octetful Notes - Graphs</a>
         <div role="search">
@@ -47,43 +45,60 @@
       </div>
 
       <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
-                <ul>
-                    <li class="toctree-l1"><a class="reference internal" href="..">Home</a>
-                    </li>
-                </ul>
-                <ul class="current">
-                    <li class="toctree-l1 current"><a class="reference internal current" href="./">Visualisation</a>
-    <ul class="current">
-    <li class="toctree-l2"><a class="reference internal" href="#graphviz">Graphviz</a>
+	<ul class="current">
+	  
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="..">Home</a>
+	    </li>
+          
+            <li class="toctree-l1 current">
+		
+    <a class="current" href="./">Visualisation</a>
+    <ul class="subnav">
+            
+    <li class="toctree-l2"><a href="#octetful-notes-graphs-visualisation">Octetful Notes - Graphs - Visualisation</a></li>
+    
         <ul>
-    <li class="toctree-l3"><a class="reference internal" href="#the-dot-language">The DOT Language</a>
-    </li>
-    <li class="toctree-l3"><a class="reference internal" href="#graphviz-react">GraphViz React</a>
-    </li>
-    <li class="toctree-l3"><a class="reference internal" href="#intellij-idea-plugin">IntelliJ IDEA Plugin</a>
-    </li>
+        
+            <li><a class="toctree-l3" href="#graphviz">Graphviz</a></li>
+        
+            <li><a class="toctree-l3" href="#visualising-tinkerpopgremlin-graphs">Visualising Tinkerpop/Gremlin Graphs</a></li>
+        
         </ul>
-    </li>
-    <li class="toctree-l2"><a class="reference internal" href="#further-explorations">Further Explorations</a>
-    </li>
+    
+
     </ul>
-                    </li>
-                </ul>
-                <p class="caption"><span class="caption-text">Graph Databases</span></p>
-                <ul>
-                    <li class="toctree-l1"><a class="reference internal" href="../graphdb/">Octetful Notes - Graphs - Graph Databases</a>
-                    </li>
-                    <li class="toctree-l1"><a class="reference internal" href="../graphdb/neo4j/">Neo4J</a>
-                    </li>
-                    <li class="toctree-l1"><a class="reference internal" href="../graphdb/tinkerpop/">Apache Tinkerpop</a>
-                    </li>
-                </ul>
-                <ul>
-                    <li class="toctree-l1"><a class="reference internal" href="../graphtheory/">Algorithms, Data Structures and Mathematics</a>
-                    </li>
-                </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">Graph Databases</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../graphdb/">Octetful Notes - Graphs - Graph Databases</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../graphdb/neo4j/">Neo4J</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../graphdb/tinkerpop/">Apache Tinkerpop</a>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../graphtheory/">Algorithms, Data Structures and Mathematics</a>
+	    </li>
+          
+        </ul>
       </div>
-    </div>
+      &nbsp;
     </nav>
 
     <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
@@ -108,7 +123,6 @@
       
     </li>
   </ul>
-  
   <hr/>
 </div>
           <div role="main">
@@ -131,10 +145,14 @@ Various programs can process DOT files. Some, such as dot, neato, twopi, circo, 
 <p>You can find the source code for <code>graphviz-react</code> on <a href="https://github.com/DomParfitt/graphviz-react"><strong>Github</strong></a>.</p>
 <h3 id="intellij-idea-plugin">IntelliJ IDEA Plugin</h3>
 <p>There is a plugin that can provide basic editing support for dot language files (<code>*.dot</code> and <code>*.gv</code>) in IntelliJ IDEA called the <a href="https://plugins.jetbrains.com/plugin/10312-dotplugin"><strong>dotPlugin</strong></a>.</p>
-<h2 id="further-explorations">Further Explorations</h2>
-<ul>
-<li>Tinkerpop IO adapter for Dot language?</li>
-</ul>
+<h2 id="visualising-tinkerpopgremlin-graphs">Visualising Tinkerpop/Gremlin Graphs</h2>
+<p>There are potentially multiple visualisation options for Tinkerpop or Gremlin graphs, some of which we tried as noted below:</p>
+<h3 id="using-neo4j-embedded-mode-browser"><a href="https://graphaware.com/neo4j/2014/11/21/neo4j-browser-with-embedded.html">Using Neo4J embedded mode browser</a></h3>
+<p>This is also linked under Neo4J notes section, and is deprecated and only applicable when using Neo4J embedded provider in Tinkerpop. Still untested, but the UI for neo4j works like a charm.</p>
+<h3 id="using-graphexp"><a href="https://github.com/bricaud/graphexp">Using graphexp</a></h3>
+<p>This method would require a Tinkerpop server to connect to. You would need to change the configurations in the <code>scripts/graphConf.js</code> file.</p>
+<h3 id="using-a-custom-visualization-component">Using a custom visualization component</h3>
+<p>You could for example write a translator to translate a Gremlin Graph to Graphviz dot file usign the <a href="https://github.com/nidi3/graphviz-java">Graphviz Java library</a>.</p>
               
             </div>
           </div>
@@ -157,7 +175,7 @@ Various programs can process DOT files. Some, such as dot, neato, twopi, circo, 
     
   </div>
 
-  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+  Built with <a href="http://www.mkdocs.org">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
 </footer>
       
         </div>
@@ -167,7 +185,7 @@ Various programs can process DOT files. Some, such as dot, neato, twopi, circo, 
 
   </div>
 
-  <div class="rst-versions" role="note" aria-label="versions">
+  <div class="rst-versions" role="note" style="cursor: pointer">
     <span class="rst-current-version" data-toggle="rst-current-version">
       
       
@@ -181,11 +199,11 @@ Various programs can process DOT files. Some, such as dot, neato, twopi, circo, 
     <script>var base_url = '..';</script>
     <script src="../js/theme.js" defer></script>
       <script src="../search/main.js" defer></script>
-    <script defer>
-        window.onload = function () {
-            SphinxRtdTheme.Navigation.enable(true);
-        };
-    </script>
 
 </body>
 </html>
+
+<!--
+MkDocs version : 1.0.4
+Build Date UTC : 2020-11-11 13:09:55
+-->
